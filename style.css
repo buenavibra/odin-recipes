@@ -19,17 +19,19 @@ h1 {
   left: 220px;
   top: 180px;
 }
-li {
+
+.main_page li {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-img {
+
+.main_page img {
   height: auto;
   width: 200px;
   justify-content: left;
   margin-left: 50px;
 }
-a {
+.main_page a {
   color: #fff;
   font-size: 20px;
 }
@@ -37,21 +39,39 @@ p {
   color: #66421c;
   font-size: 14px;
 }
-.lasagna {
+p {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.main_page .lasagna {
   position: absolute;
   left: 400px;
   top: 250px;
   margin-right: 100px;
 }
-.pizza {
+.main_page .pizza {
   position: absolute;
   left: 400px;
   top: 450px;
   margin-right: 100px;
 }
-.pesto {
+.main_page .pesto {
   position: absolute;
   left: 400px;
   top: 800px;
   margin-right: 100px;
+}
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 20px;
+  color: #66421c;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #fff;
 }
